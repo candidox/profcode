@@ -1,0 +1,72 @@
+/* CSS DO EXERCICO 01 - AULA 06 */
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#page{
+    width: 960px;
+    margin: 0 auto;
+}
+
+figure{
+    width: 290px;
+    margin: 0 auto;
+    border: 1px solid rgb(185, 185, 185);
+    border-radius: 20px;
+    display: inline-block;
+    padding: 6px;
+    margin: 10px 2px;
+}
+
+figure h6{
+    text-align: left;
+    font-size: 15pt;
+    margin: 15px 0px;
+    padding: 0;
+}
+
+.legenda{
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 8pt;
+    text-align: center;
+    border-bottom: 2px solid black;
+    padding-bottom: 15px;
+    
+}
+
+figure img{
+    height: 100px;
+    margin: auto;
+    display: block;
+    margin-bottom: 5px;
+    padding: 15px;
+    padding-bottom: 0;
+}
+
+header{
+    background-color: black;
+    height: 50px;
+    width: auto;
+    border-radius: 40px;
+}
+
+header h5{
+    text-align: center;
+    margin: auto;
+    color: white;
+    line-height: 50px;
+}
+
+.justificado{
+    text-align: justify;
+}
+
+figure p{
+    text-align: left;
+}
+
+#principal{
+    text-align: center;
+}
+
