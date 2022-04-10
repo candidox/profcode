@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body,html{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    font-family: cursive;
+    font-size: 9pt;
+}
+
+#principal{
+    width: 960px;
+    margin: 20px auto;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+
+aside{
+    border: 1px solid black;
+    border-radius: 0 20px 20px 0;
+    float: left;
+    width: 24%;
+    height: 642px;
+    color: blue
+}
+
+#text{
+    text-align: center;
+    vertical-align: center;
+    line-height: 630px;
+}
+
+#top{
+    margin-left: 10px;
+    float: left;
+    width: 74%;
+    height: 315px;
+    border: 1px solid rgb(255, 0, 0, 0.465);
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(255, 0, 0, 0.465);
+}
+
+#top img{
+    margin: 8px;
+}
+
+#top h1, #mid h1{
+    margin-left: 15px;
+}
+
+#top p, #mid p{
+    margin-left: 15px;
+}
+
+#top ul, #mid ul{
+    margin-left: 35px;
+}
+
+#mid{
+    float: left;
+    height: 315px;
+    width: 74%;
+    margin-left: 10px;
+    border: 1px solid rgb(255, 251, 0);
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px 10px rgba(255, 251, 0, 0.633);
+}
+
+#mid img{
+    margin: 8px;
+}
+
+#bottom{
+
+    text-align: center;
+    display: inline-block;
+    width: 960px;
+    height: 100px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 0 20px 20px 20px;
+}
+
+footer{
+    float: left;
+    clear: both;
+    background-color: black;
+    width: 960px;
+    color: white;
+    text-align: center;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 20px 20px 0 0;
+    margin-bottom: 15px;
+}
+
